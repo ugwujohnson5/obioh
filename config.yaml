@@ -1,4 +1,4 @@
-baseURL: http://something-fresh.org/
+baseURL: 
 languageCode: en-us
 title: LATEST WEBSITE 
 theme: hugo-fresh
@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/contact/"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -59,7 +59,7 @@ params:
   #   - title: Dropdown item
   #     url: /
   - title: Contact
-    url: /
+    url: /contact/
     button: true
   # - title: Sign up
   #   url: /
@@ -87,15 +87,15 @@ params:
     title: You're here because you want the best
     subtitle: And we know it
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Sure Signal
+      text: you wouldn't mind being the first person to amass wealth from this platform.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Technical Analysis
+      text: We have a good number of certified technical analyst aroound the globe. you need to see them work. They are indeed the best
       icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Security
+      text: On registering with Dr. Forex, your future is indeed in safe hands. give it a try and you won't regret
       icon: mobile-feed
   section3:
     title: One platform
