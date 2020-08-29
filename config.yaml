@@ -70,17 +70,17 @@ params:
     tiles:
     - title: Super Technical Analysis
       icon: latest
-      text: This is some explanatory text that is on two rows
+      text: The Best in the country
       url: /
-      buttonText: Free trial
+      # buttonText: Free trial
     - title: Apt Signals
       icon: graph
-      text: This is some explanatory text that is on two rows
+      text: You wouldn't want to miss out on them
       url: /
-      buttonText: Get started
+      # buttonText: Get started
     - title: Round the Clock Service
       icon: block
-      text: This is some explanatory text that is on two rows
+      text: We make sure that you don't Miss out on any of our services.
       url: /
       buttonText: Get started
   section2:
