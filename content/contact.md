@@ -16,3 +16,4 @@ You Can reach out to Dr. Forex on 09012357219
     <button type="submit">Submit</button>
   </form>
 </div>
+<script src="https://kwes.io/js/kwes.js"></script>
