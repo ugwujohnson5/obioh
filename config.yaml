@@ -1,0 +1,175 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: LATEST WEBSITE 
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy 
+  description: 
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/fresh.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Dr. Forex
+    # Hero subtitle (optional)
+    subtitle: Your No. 1 Signal Provider
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: About
+    url: /about/
+    button: true
+  - title: Services
+    url: /services/
+    button: true
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Testimonies
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  - title: Contact
+    url: /
+    button: true
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  section1:
+    title: In Order to create Wealth
+    subtitle: Sacrifices Must be Made
+    tiles:
+    - title: Super Technical Analysis
+      icon: latest
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Free trial
+    - title: Apt Signals
+      icon: graph
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+    - title: Round the Clock Service
+      icon: block
+      text: This is some explanatory text that is on two rows
+      url: /
+      buttonText: Get started
+  section2:
+    title: You're here because you want the best
+    subtitle: And we know it
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "/contact/"
+  section4:
+    title: Our Clients love us!
+    subtitle: Here are testimonies from some of our clients
+    clients:
+    - name: Ugwu Johnson
+      quote: This forum has indeeed helped me amass wealth in Forex Trading and i would love you to join and benefit from it.
+      job: Medical Doctor
+      img: 4
+    - name: Daniel Ekpeyong
+      quote: All my years as a financial Analyst, i havent come across an forex forum that delivers signals and predicts trades as accurate as this. He's 99.9% reliable. 
+      job: Financial Analyst
+      img: 2
+    - name: Joel Okon
+      quote: most people oon seeing my profession might say that i'm a novice and lack the idea to credit a system as apt as this, but i would still want to say that this forum is 101% reliable. If you don't see, you wont believe.
+      job: Carpenter
+      img: 3
+  section5: true
+  url: /http://usebasin/f/2e781b9deb56/
+  footer:
+    # Logo (from /images/logos/___)
+    logo: fresh-white-alt.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blogs/
+        - text: Tech articles
+          link: /blogs/second/
+ 
